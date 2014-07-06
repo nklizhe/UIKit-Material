@@ -1,12 +1,23 @@
 # UIKit+Material
 
+[![Version](https://img.shields.io/cocoapods/v/UIKit+Material.svg?style=flat)](http://cocoadocs.org/docsets/UIKit+Material)
+[![License](https://img.shields.io/cocoapods/l/UIKit+Material.svg?style=flat)](http://cocoadocs.org/docsets/UIKit+Material)
+[![Platform](https://img.shields.io/cocoapods/p/UIKit+Material.svg?style=flat)](http://cocoadocs.org/docsets/UIKit+Material)
+
 A collection of UIKit category for Material Design. (http://www.google.com/design/spec/material-design/introduction.html)
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Screenshots
+
+![Primary Colors](https://raw.githubusercontent.com/nklizhe/UIKit-Material/master/Screenshots/primary-colors.png)
+
+![Colors Shades](https://raw.githubusercontent.com/nklizhe/UIKit-Material/master/Screenshots/color-shades.png)
+
+![Typography](https://raw.githubusercontent.com/nklizhe/UIKit-Material/master/Screenshots/typography.png)
+
 
 ## Installation
 
