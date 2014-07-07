@@ -1,0 +1,12 @@
+target 'Showcase', :exclusive => true do
+  pod "UIKit+Material", :path => "../../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UIKit+Material", :path => "../../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'EXPMatchers+FBSnapshotTest'
+end

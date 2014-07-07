@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIKit+Material"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A collection of UIKit categories for Material Design"
   s.description      = <<-DESC
                        A collection of UIKit categories for creating UI with Material Design. http://www.google.com/design/spec/material-design/introduction.html
