@@ -8,6 +8,7 @@
 
 #import "ShadowDemoViewController.h"
 #import <UIKit+Material/UIView+Material.h>
+#import <UIKit+Material/UIColor+Material.h>
 
 #define kNumBoxes  5
 #define kBoxWidth  200.0f
@@ -44,7 +45,10 @@
                                                                kBoxHeight)];
         [box setShadowDepth:i+1];
         [box setBackgroundColor:[UIColor whiteColor]];
-        
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture:)];
+        [box addGestureRecognizer:tapGesture];
+        [box setUserInteractionEnabled:YES];
+        [box setTintColor:[UIColor primaryColorForGroup:@"grey" alpha:1.0f]];
         [self.contentView addSubview:box];
         [self.contentView setContentSize:CGSizeMake(CGRectGetWidth(self.contentView.bounds), CGRectGetMaxY(box.frame) + 30.0)];
         [tmp addObject:box];
@@ -60,6 +64,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tapGesture:(UITapGestureRecognizer *)gesture
+{
+    UIView *view = [gesture view];
+    CGPoint position = [gesture locationInView:view];
+    [view showRippleAnimationFromPosition:position completion:nil];
+}
 /*
 #pragma mark - Navigation
 

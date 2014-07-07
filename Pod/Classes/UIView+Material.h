@@ -16,4 +16,7 @@
 - (void)setShadowDepth:(int)depth;
 - (int)shadowDepth;
 
+- (void)showRippleAnimationFromPosition:(CGPoint)position completion:(void (^)(BOOL finished))completion;
+
+
 @end
