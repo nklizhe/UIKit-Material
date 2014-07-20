@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIKit+Material"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A collection of UIKit categories for Material Design"
   s.description      = <<-DESC
                        A collection of UIKit categories for creating UI with Material Design. http://www.google.com/design/spec/material-design/introduction.html
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/nklizhe/UIKit-Material.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/nklizhe'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
