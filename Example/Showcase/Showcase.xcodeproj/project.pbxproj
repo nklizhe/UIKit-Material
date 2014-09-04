@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D18BF0951E045AE8AEBA55E /* libPods-ColorPalette.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C707D2B37F40BD9DB6A571 /* libPods-ColorPalette.a */; };
+		4BFFEB7DFAAF496E9A997E33 /* libPods-Showcase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC9E5D4A2B4386A9F09E89 /* libPods-Showcase.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,8 +24,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6043DB43408F4D89A3B45163 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D587306BF2DE4C009334A319 /* libPods-Tests.a */; };
-		957560620CAC451F813F34D4 /* libPods-UIKit+Material.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD7676B39A2431DAD9E2871 /* libPods-UIKit+Material.a */; };
-		DAA259D7FC47454292BC87A8 /* libPods-Showcase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC9E5D4A2B4386A9F09E89 /* libPods-Showcase.a */; };
 		E263FC1C1968F7F00071F6C9 /* ColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E263FC1B1968F7F00071F6C9 /* ColorTableViewCell.m */; };
 		E263FC1F1968F94C0071F6C9 /* ColorPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E263FC1E1968F94C0071F6C9 /* ColorPaletteViewController.m */; };
 		E2F0CAA5196994A200A7D951 /* ShowcaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CAA4196994A200A7D951 /* ShowcaseViewController.m */; };
@@ -80,7 +78,6 @@
 		E2F0CAA4196994A200A7D951 /* ShowcaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseViewController.m; sourceTree = "<group>"; };
 		E2F0CAA6196996A400A7D951 /* ShadowDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowDemoViewController.h; sourceTree = "<group>"; };
 		E2F0CAA7196996A400A7D951 /* ShadowDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoViewController.m; sourceTree = "<group>"; };
-		F68AD071F8874451B0AAEE75 /* Pods-ColorPalette.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPalette.xcconfig"; path = "Pods/Pods-ColorPalette.xcconfig"; sourceTree = "<group>"; };
 		FDDC9E5D4A2B4386A9F09E89 /* libPods-Showcase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Showcase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,9 +89,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				957560620CAC451F813F34D4 /* libPods-UIKit+Material.a in Frameworks */,
-				2D18BF0951E045AE8AEBA55E /* libPods-ColorPalette.a in Frameworks */,
-				DAA259D7FC47454292BC87A8 /* libPods-Showcase.a in Frameworks */,
+				4BFFEB7DFAAF496E9A997E33 /* libPods-Showcase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +116,6 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				071332CB185D418C94721127 /* Pods-Tests.xcconfig */,
-				F68AD071F8874451B0AAEE75 /* Pods-ColorPalette.xcconfig */,
 				B32EFB555005493FBD82AA0E /* Pods-Showcase.xcconfig */,
 			);
 			sourceTree = "<group>";

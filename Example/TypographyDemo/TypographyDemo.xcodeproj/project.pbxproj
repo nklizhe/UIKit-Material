@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D18BF0951E045AE8AEBA55E /* libPods-ColorPalette.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C707D2B37F40BD9DB6A571 /* libPods-ColorPalette.a */; };
-		3102C575EF9A4403B8AFAFDE /* libPods-TypographyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D620DFADF549B6AC1BE789 /* libPods-TypographyDemo.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6043DB43408F4D89A3B45163 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D587306BF2DE4C009334A319 /* libPods-Tests.a */; };
-		957560620CAC451F813F34D4 /* libPods-UIKit+Material.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD7676B39A2431DAD9E2871 /* libPods-UIKit+Material.a */; };
+		9B358221B28C4785861CC542 /* libPods-TypographyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D620DFADF549B6AC1BE789 /* libPods-TypographyDemo.a */; };
 		E2EBED341969356F006A81B8 /* TypographyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EBED331969356F006A81B8 /* TypographyDemoViewController.m */; };
 		E2EBED371969365A006A81B8 /* TypographyDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EBED361969365A006A81B8 /* TypographyDemoTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -72,8 +70,6 @@
 		E2EBED331969356F006A81B8 /* TypographyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypographyDemoViewController.m; sourceTree = "<group>"; };
 		E2EBED351969365A006A81B8 /* TypographyDemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypographyDemoTableViewCell.h; sourceTree = "<group>"; };
 		E2EBED361969365A006A81B8 /* TypographyDemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypographyDemoTableViewCell.m; sourceTree = "<group>"; };
-		EC8D33D2B2C14E69A8FD0A3B /* Pods-UIKit+Material.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKit+Material.xcconfig"; path = "Pods/Pods-UIKit+Material.xcconfig"; sourceTree = "<group>"; };
-		F68AD071F8874451B0AAEE75 /* Pods-ColorPalette.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPalette.xcconfig"; path = "Pods/Pods-ColorPalette.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				957560620CAC451F813F34D4 /* libPods-UIKit+Material.a in Frameworks */,
-				2D18BF0951E045AE8AEBA55E /* libPods-ColorPalette.a in Frameworks */,
-				3102C575EF9A4403B8AFAFDE /* libPods-TypographyDemo.a in Frameworks */,
+				9B358221B28C4785861CC542 /* libPods-TypographyDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +107,6 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				071332CB185D418C94721127 /* Pods-Tests.xcconfig */,
-				EC8D33D2B2C14E69A8FD0A3B /* Pods-UIKit+Material.xcconfig */,
-				F68AD071F8874451B0AAEE75 /* Pods-ColorPalette.xcconfig */,
 				096772C8AD864331845A711A /* Pods-TypographyDemo.xcconfig */,
 			);
 			sourceTree = "<group>";

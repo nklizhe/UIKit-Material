@@ -5,7 +5,7 @@ PODS:
     - FBSnapshotTestCase
   - FBSnapshotTestCase (1.1)
   - Specta (0.2.1)
-  - UIKit+Material (0.1.0)
+  - UIKit+Material (0.1.2)
 
 DEPENDENCIES:
   - Expecta
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  EXPMatchers+FBSnapshotTest: fcc428d6a5d4410c1711aeda4456c9c5e93f98d3
+  EXPMatchers+FBSnapshotTest: 3c48e8a29a445476fe2d72d7da45dfdd765b5f55
   FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
-  UIKit+Material: a965cdfdc926a3892fd7bc98d3f8a86f96836bb5
+  UIKit+Material: 5af9a17482301df7c9203068428aeeea158cecb4
 
 COCOAPODS: 0.33.1
